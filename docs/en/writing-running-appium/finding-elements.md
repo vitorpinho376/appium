@@ -20,6 +20,7 @@ using the Id/Name that the native Accessibility options utilize.
 
 Finally, Appium supports an additional experimental locator strategy:
 
+* `-image`: a string corresponding to a base64-encoded version of an image which should be used by Appium as a template to find a matching screen region, which can then be tapped as if it were an element. For more information on this locator strategy, see the [Finding Image Elements](/docs/en/advanced-concepts/image-elements.md) doc.
 * `-custom`: a string which will be sent to an element finding plugin registered via the `customFindModules` capability. For more information on this strategy, check out the [Element Finding Plugin](/docs/en/advanced-concepts/element-finding-plugins.md) docs.
 
 ### Issues
